@@ -1,5 +1,5 @@
 # Note
-**This is a very old repo, from nearly a year ago as of writing this. please go (here)[https://github.com/uniub/uniub.github.io] for the updated version.
+**This is a very old repo, from nearly a year ago as of writing this. please go [here](https://github.com/uniub/uniub.github.io) for the updated version.**
 
 # UniversalUB V1.11 - Current
 ### Bug fixes!
