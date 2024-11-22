@@ -45,16 +45,7 @@
         <div class="smallmargin"></div>
     </div>
     <script>
-        function pagesecurity(baseURL) {
-            var currentURL = window.location.href;
-            if (currentURL.startsWith(baseURL)) {
-                return;
-            } else {
-                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
-            }
-        }
-
-        pagesecurity('https://' + currentname + '.github.io/');
+        
     </script>
     <script src="aboutblank.js"></script>
 </html>

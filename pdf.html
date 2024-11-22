@@ -42,17 +42,6 @@
         <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
         <div class="smallmargin"></div>
     </div>
-    <script>
-        function pagesecurity(baseURL) {
-            var currentURL = window.location.href;
-            if (currentURL.startsWith(baseURL)) {
-                return;
-            } else {
-                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
-            }
-        }
 
-        pagesecurity('https://' + currentname + '.github.io/');
-    </script>
     <script src="aboutblank.js"></script>
 </html>
