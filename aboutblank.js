@@ -107,17 +107,6 @@ function switchtourl(urltoswitch){
     window.location.href = 'https://' + currentname + '.github.io' + urltoswitch
 }
 
-function pagesecurity(baseURL) {
-    var currentURL = window.location.href;
-    if (currentURL.startsWith(baseURL)) {
-        return;
-    } else {
-        document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
-    }
-}
-
-pagesecurity('https://' + currentname + '.github.io/');
-
 //window.addEventListener('beforeunload', function (e) {
 //    e.preventDefault();
 //    e.returnValue = '';
